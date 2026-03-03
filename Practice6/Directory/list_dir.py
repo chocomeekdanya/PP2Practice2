@@ -1,0 +1,10 @@
+
+
+import os
+
+path = "."
+
+items = os.listdir(path)
+
+for item in items:
+    print(item)
